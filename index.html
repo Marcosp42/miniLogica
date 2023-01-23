@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page">
+        <div class="section">
+            <div class="top">
+                <div class="itens">
+                    <header></header>
+                    <div class="blockAction item1" draggable="true">
+                        <div>Repita <input type="text"> Vezes</div>
+                    </div>
+                    <div class="blockAction item2" draggable="true">
+                        <div>Escreva <input type="text"> no console</div>
+                    </div>
+                    <div class="blockAction item3" draggable="true">
+                        Bloco {
+                        <div class="container" dropzone="true">
+
+                        </div>
+                        }
+                    </div>
+
+
+                </div>
+                <div class="containerzone">
+                    <div class="btns">
+                        <button class="btnExecutar" onclick="iniciar()">
+                            <img src="img/icons8-property-executável-40.png" alt="">
+                        </button>
+                        <button>
+                            <img id="removerBlock" draggable="false" src="img/icons8-remover-40.png" alt="">
+                        </button>
+                    </div>
+                    <div class="dropzone"></div>
+                </div>
+            </div>
+
+            <div class="cmd">
+                <div class="btns">
+                    <div class="texto">Saida</div>
+                    <button onclick="limpar()"><img src="img/icons8-remover-40.png" alt=""></button>
+                </div>
+                <div class="output"></div>
+            </div>
+        </div>
+
+        <div class="container-2">
+        </div>
+    </div>
+
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
